@@ -1,0 +1,77 @@
+ /* * {
+    font-family: monospace;
+    background: powderblue;
+}
+
+div {
+    width: 300px;
+    height: 300px;
+    background-color: salmon;
+    text-align: center;
+    line-height: 300px;
+    border-radius: 0 30% 30% 30%;
+    color: white;
+    font-size: 32px;
+    background-image: url(img/ldk.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+} */
+/* * { background-color: grey; }
+
+div {
+    width: 500px;
+    height: 500px;
+    background-color: pink;
+    /* border-radius: 0 50% 0 50%;
+    line-height: 500px;
+    text-align: center;
+    font-size: 64px;
+    background-image: url(img/Flag-Indonesia.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; 
+} */
+
+
+* {
+    font-size: 20px;
+    text-align: center;
+}
+
+/* 4 TRANSFORM 
+        Scale
+        Rotate
+        Skew
+        Translate
+*/
+
+.kotak {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    margin: 50px auto 0;
+    transition: 1s;
+}
+
+/* SCALE(Angka) */
+.kotak:hover {
+    transform: rotate(45deg);
+    background-color: royalblue;
+}
+
+/* ROTATE(Derajat) */
+/* .kotak:hover { */
+    /* Sumbu ada ditengah */
+    /* transform: rotate(45deg); */
+    /* transform: rotate(-45deg); */
+
+    /* sumbu dicustom */
+    /* transform: rotateY(180deg); */
+/* } */
+
+/* SKEW / Miring */
+/* .kotak:hover {
+    transform: skew(30deg);
+} */
+
+/* TRANSLATE */
+  

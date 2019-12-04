@@ -1,0 +1,14 @@
+/* ================================== NAVBAR */
+    .nav-link{
+        color: black !important;
+        margin-right: 15px;
+        font-size: 15px;
+    }
+
+    .tombol {
+        background-color: rgb(27, 20, 24);
+        color: white;
+        border-color: #BD387B;
+        margin-left: 15px;
+    }
+/* ================================== NAVBAR */
